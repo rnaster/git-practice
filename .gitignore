@@ -1,0 +1,20 @@
+# 확장자가 .a인 파일 무시
+*.a
+
+# *.a에서 lib.a는 무시하지 않음
+!lib.a
+
+# 현재 디렉터리에 있는 TODO는 무시하고 subdir/TODO는 무시
+/TODO
+
+# build/ 에 있는 모든 파일 무시
+build/
+
+# doc/notes.txt는 무시하고 doc/asd/note.txt는 무시하지 않음
+doc/*.txt
+
+# doc 디렉터리의 모든 pdf파일 무시
+doc/**/*.pdf
+
+# ~로 끝나는 파일 무시
+*~
