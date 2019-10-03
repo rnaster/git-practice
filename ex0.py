@@ -1,6 +1,10 @@
 import random
 
 
+def power(x):
+    return x * x
+
+
 if __name__ == '__main__':
     print('print random number: %d' % random.randint(0, 100))
     rand = random.random()
@@ -12,4 +16,7 @@ if __name__ == '__main__':
         print('great')
     else:
         print('excellent')
-
+    print('power operation')
+    rand_list = [random.randint(0, 20) for _ in range(5)]
+    print('origin:', *rand_list)
+    print('power:', *map(power, rand_list))
