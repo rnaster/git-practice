@@ -1,0 +1,3 @@
+Hello!
+Test: git rebase -i Head~3
+good luck!
