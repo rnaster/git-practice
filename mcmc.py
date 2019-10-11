@@ -7,7 +7,6 @@ if __name__ == '__main__':
         iteration = 1000
     else:
         iteration = int(sys.argv[1])
-    print(iteration, type(iteration))
     cnt = 0
     for _ in range(iteration):
         x = random.random()
