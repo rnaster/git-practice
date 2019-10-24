@@ -1,3 +1,5 @@
 Hello!
 Test: git rebase -i Head~3
+Test: for squash 1
+Test: for squash 2
 good luck!
